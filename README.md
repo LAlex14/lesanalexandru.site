@@ -6,12 +6,12 @@ A one page project that contains information about other personal projects and s
 
 - Create UI for project
 - Tabs with photos, description and links 
-- A description with a download button for CV
-- Carousel Slider with with images of other projects 
-- Catalog with offers presented as Menu cards with image, description and price(use functions and ES6 classes to create them)
-- Form with 2 inputs for contact
+- A description and a download button for CV
+- Carousel Slider with images of other projects and clickable indicators under them
+- Catalog with offers presented as Menu cards with image, description and price(use function and ES6 classes to create them)
+- Forms for contact
 - Timer that shows the time remaining from the current date to the expiration of a date
 - Footer with contact data
 - Side panel with fixed position
-- Modal window that open when scrolling the page to the end and after the time expires and close when press ESCAPE key or click outside
+- Modal window that appears on button click, scrolling the page to the end or after the time expires and disappear when press "X", ESCAPE key or click outside
 
