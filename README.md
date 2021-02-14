@@ -2,7 +2,7 @@
 
 A one page project that contains information about other personal projects and some of the skills I've learned to do.
 
-## Project Specifications
+### Project Specifications
 
 - Create UI for project
 - Tabs with photos, description and links 
