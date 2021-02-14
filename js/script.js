@@ -111,6 +111,7 @@ window.addEventListener('DOMContentLoaded', () => {
         modal.classList.toggle('show');
         document.body.style.overflow = 'hidden';
         clearInterval(modalTimerId);
+        // window.removeEventListener('scroll', showModalByScroll);
     }
 
     modalTrigger.addEventListener('click', openModal);
