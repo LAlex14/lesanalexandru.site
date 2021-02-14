@@ -1,6 +1,7 @@
 ## Portfolio project
 
 A one page project that contains information about other personal projects and some of the skills I've learned to do.
+In the folder named "projects" you can find some of the projects I did while taking online web development courses.
 
 ### Project Specifications
 
