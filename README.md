@@ -13,5 +13,5 @@ A one page project that contains information about other personal projects and s
 - Timer that shows the time remaining from the current date to the expiration of a date
 - Footer with contact data
 - Side panel with fixed position
-- Modal window that appears on button click, scrolling the page to the end or after the time expires and disappear when press "X", ESCAPE key or click outside
+- A Modal window, which appears on button click("Contanct me")/ after the expiration of the pre-set time, or after reaching the bottom of the page. It can be closed by press "X" button/ ESCAPE key, or by clicking on the space outside of them.
 
