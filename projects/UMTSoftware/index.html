@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Split array problem</title>
+</head>
+
+<body class="text-center">
+
+    <main class="form-signin py-5 container">
+        <img class="mb-4" src="https://www.umtsoftware.com/wp-content/themes/umt_software/img/logo.png" alt="">
+        <h2 class="mb-2 fw-normal">Summer Internship 2021</h2>
+        <h3 class="mb-2 fw-normal">Split array problem</h3>
+
+        <div class="text-start mb-3">
+            <p class="title">Description:</p>
+            <p class="text">In a given integer array A, we must move every element of A to either list B or list C. (B
+                and C
+                initially start empty.)</p>
+
+            <p class="text">Return true if and only if after such a move, it is possible that the average value of B is
+                equal to the
+                average value of C, and B and C are both non-empty.
+            </p>
+
+            <p class="title">Sample input:</p>
+            <p class="text">[1,2,3,4,5,6,7,8] </p>
+
+            <p class="title">Sample output:</p>
+            <p class="text">True</p>
+
+            <p>
+            <p class="title">Explanation:</p> We can split the array into [1,4,5,8] and [2,3,6,7], and both of them have
+            the average of 4.5.</p>
+
+            <p class="title">Note:</p>
+            <p class="text">The length of A will be in the range [1, 30].</p>
+            <p class="text">A[i] will be in the range of [0, 10000].</p>
+
+        </div>
+
+        <div class="form-floating mx-auto">
+            <input type="text" class="form-control" id="input" placeholder="1, 2, 3, 4, 5, 6, 7, 8">
+            <label for="floatingInput">Enter the string of numbers separated by comma (",")</label>
+        </div>
+
+        <button class="w-100 mt-3 btn btn-lg btn-primary" id="submit">Submit</button>
+
+        <!-- <h3 class="mt-3 mb-1 fw-normal">Result:</h3> -->
+        <button class="w-100 mt-3 btn btn-lg btn-success d-none" id="true">TRUE</button>
+        <button class="w-100 mt-3 btn btn-lg btn-danger d-none" id="false">FALSE</button>
+
+        <p class="mt-3 mb-3 text-muted">© 2021, <a href="http://lesanalexandru.site">Leșan Alexandru</a>. All rights
+            reserved.</p>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

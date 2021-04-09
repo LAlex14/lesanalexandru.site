@@ -1,0 +1,21 @@
+.container {
+  max-width: 450px;
+}
+p {
+  margin: 1px;
+}
+
+.title {
+  font-weight: bold;
+  padding-left: 15px;
+}
+
+#true,
+#false {
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
